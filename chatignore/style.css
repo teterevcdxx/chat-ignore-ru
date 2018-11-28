@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat', sans-serif;
+} 
+body{
+    background-color: rgb(37, 37, 37);
+    position: relative;
+}
+.page{
+    width: 320px;
+    position: relative;
+    margin: auto;
+    background-color:rgb(37, 37, 37);
+    height: 100vh;
+}
+.input-nav{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    width: 320px;
+    margin: auto;
+    justify-content: space-between;
+    background-color: rgb(31, 31, 31);
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2);
+}
+.headers{
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    margin: auto;
+    height: 60px;
+    justify-content: space-between;
+    background-color: rgb(31, 31, 31);
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.1);
+    z-index: 3;
+}
+h1{
+    text-align: center;
+    color: blueviolet;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+}
+h2{
+    text-align: center;
+    color: lawngreen;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    margin: 0 5px;
+    margin-bottom: 10px;
+}
+.membership{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+input[type="text"]{
+    background-color:rgb(57, 57, 58);
+    border: none;
+    height: 38px;
+    width: 220px;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    margin: 10px 0 0 10px;
+    border-bottom: 1px solid darkviolet;
+}
+input[type="text"]:focus{
+    outline: none;
+}
+.headers a{
+    width: 40px;
+    font-size: 32px;
+    display: block;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    background-color: lightskyblue;
+
+}
+.input-nav a{
+    width: 170px;
+    font-size: 25px;
+    display: block;
+    margin: 10px 10px;
+    padding-top: 6px;
+    text-align: center;
+    height: 38px;
+    text-decoration: none;
+    color: white;
+    background-color: darkviolet;
+}
+/* _______________________________________ */
+.messages{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(57, 57, 58);
+    height: 200vh;
+}
+hr{
+    color: white;
+    outline: none;
+    border: 1px solid aliceblue;
+}
+.message{
+    width: 260px;
+    display: flex;
+    padding: 12px;
+    background-color: rgb(37, 37, 37);
+    border-radius: 5px 0px 0 5px;
+    margin: 5px 0 5px 55px;
+    border: 1px solid darkviolet;
+}
+.message p{
+    word-wrap: break-word; 
+    display: block;
+    margin-left: 5px;
+    width: 230px;
+    color: white;
+}
+/*  ____________________________________ */
+.modal{
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(37, 37, 37);
+}
+.infobox{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    margin: auto;
+}
+.infobox h1{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.infobox a{
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    background-color: blueviolet;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 10px;
+    color: rgb(37, 37, 37);
+    font-family: 'Press Start 2P', cursive;
+    height: 40px;
+}       
